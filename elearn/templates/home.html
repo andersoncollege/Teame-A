@@ -1,0 +1,76 @@
+{% extends "nav_main.html" %}
+{% load static %}
+
+{% block body %}
+<div class="row">
+    <div class="col-sm-12" style="padding-top: 60px">
+        <div id="content">
+            <div class="col-sm-12">
+                <center>
+                    <h1 style="color: #250CFF">Best Online Education Service. Learn and Grow.</h1>
+                </center>
+                <center><img src="{% static 'img/e_learn.jpg' %}" alt="img" class="card-img-top"></center>
+                <center>
+                    <h1 style="color: #250CFF">We Make Things Happen For You</h1>
+                </center>
+                <br><br>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+
+                    <div class="card">
+                        <img src="{% static 'img/learn_frontend.jpg' %}" alt="img" height="320px" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Development Courses</h5>
+                            <p class="card-text">
+                                Unlock your potential with our comprehensive web development courses.
+                                Start learning today and build the future!
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img src="{% static 'img/code_img.jpg' %}" alt="img" height="320px" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Programming Courses</h5>
+                            <p class="card-text">
+                                Dive into the world of programming in with our expert-led courses.
+                                Master the skills you need for a successful career!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img src="{% static 'img/learn_courses.jpg' %}" alt="img" height="320px" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Explore Our Courses</h5>
+                            <p class="card-text">
+                                Discover a wide range of courses designed to help you grow.
+                                From tech to design, we have something for everyone!
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img src="{% static 'img/instructor.jpg' %}" alt="img" height="320px" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Connect With Instructors</h5>
+                            <p class="card-text">
+                                Meet our incredible instructors who are here to guide you every step of the way.
+                                Connect and learn from the best!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

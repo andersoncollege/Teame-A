@@ -1,0 +1,17 @@
+{% include 'nav_main.html' %}
+{% load static %}
+
+{% block body %}
+
+<body id="bg">
+  <div class="row">
+    <div class="row" style="padding-top: 335px">
+      <h2>Register</h2>
+      <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </div>
+  {% endblock %}
